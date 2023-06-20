@@ -45,12 +45,3 @@ for i in range(t_total_points):
 #print('time:', a*dt)
 plt.show()
 
-#animating the evolution of the wave
-#import matplotlib.animation as animation
-#ims=[]
-#fig = plt.figure(figsize=(15,4))
-#for i in range(t_total_points):
-#    im = plt.plot(x_grid,u[:,i],animated=True)
-#    ims.append([im])
-#ani = animation.ArtistAnimation(fig, ims)
-#ani.save('file')
